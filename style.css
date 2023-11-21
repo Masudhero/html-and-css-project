@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important; */
+    padding: 0 20px;
+  }
+  :root {
+    --primary:#263238;
+    --secondary:#FFC727;
+    --blue-light: #FFF8E5;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #d8d8d8;
+    --gray-light: #F0F0F0;
+    --dark-gray: #00271e;
+    --red: #fe0000;
+    --main-color: #619741;
+    --fs-1: 40px;
+    --fs-2: 25px;
+    --fs-3: 20px;
+    --fs-4: 18px;
+    --transition3: 0.3s ease-in-out;
+  }
+  /* this style header section start  */
+  .header-section{
+    background-color:var(--primary);
+    width: 100%;
+    height: 70px;
+  }
+  .header-1{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 100px;
+  }
+  .header-text p{
+    color: var(--white);
+    font-size: 22px;
+  }
+  .header-text2 p{
+    color: var(--white);
+    font-size: 22px;
+  }
+  .header-logo3 {
+    display: flex;
+    gap: 25px;
+    margin-left: 470px;
+  }
+  .header-text4{
+    background-color: var(--secondary);
+    height: 70px;
+    width: 70px;
+  }
+  .header-text4 img{
+    margin: 20px;
+  }
+  /* this style header section end  */
+  /* this style tourmate section start  */
+  .tourmate-text {
+    display: flex;
+    width: 100%;
+    height: 53px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /* tourmate list start  */
+  .tourmate-item ul li{
+    display: inline-block;
+    list-style: none;
+  }
+  .tourmate-item ul li a {
+    text-decoration: none;
+    color: var(--dark-gray);
+    padding: 0px 12px;
+    font-size: 20px;
+  }
+  .tourmate-item {
+    margin-right: 60px;
+  }
+  /* list end  */
+  .tourmate-text-1 {
+    color: var(--secondary);
+    font-size: 30px;
+    margin-left: 65px;
+  }
+  /* regester button   start */
+.highlight{
+    height: 53px;
+    width: 150px;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 10px;
+    font-size: 22px;
+    margin-right: 120px;
+}
+/* tourmate section end  */
+/* banner section start  */
+.banner-section {
+    background-image: url(images/banner-1/banner.png);
+    width: 100%;
+    height: 450px;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 40px;
+  }
+  .banner-text {
+    font-size: 30px;
+    position: absolute;
+    margin: 29px 15px 20px 90px;
+  }
+/* search section  */
+#search {
+    font-size: 22px;
+    height: 54px;
+    width: 320px;
+  }
+  .input-fill{
+    display: flex;
+    margin-top: 15px;
+  }
+  /* banner section end  */
+  /* explore section start  */
+  .explore-section{
+    width: 100%;
+    height: 350px;
+    background-color: var(--secondary);
+  }
+  .explore{
+    display: flex;
+    margin: 10px;
+  }
+  .explore1 {
+    display: flex;
+    gap: 62px;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+  }
+  .explore2 {
+    display: flex;
+    display: flex;
+    gap: 62px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--white);
+    margin: 40px;
+  }
+  .explore-left-section {
+    width: 48%;
+    border: 1px dotted white;
+    margin-top: 70px;
+  }
+  .light{
+    color: var(--white);
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 22px;
+    margin: 40px;
+  }
+  .explore-right-secton h2 {
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 200;
+    margin: 61px;
+  }
+  .explore-right-secton{
+    width: 48%;
+  }
+  #join-button {
+    margin-left: 55px;
+    margin-top: -80px;
+  }
+  /* explore section end  */
+  /* slider section start  */
+  .slider-section{
+    width: 100%;
+    height: 1055px;
+    background-color: var(--blue-light);
+    position: relative;
+  }
+  .slider-section img,h1{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .slider-title{
+    text-align: center;
+  }
+  .slider{
+    display: flex;
+    width: 80%;
+    margin: 30px;
+  }
+  .slider-image {
+    margin: 20px;
+  }
+  .slider-image img {
+    height: 350px;
+    width: 390px;
+  }
+  .title {
+    position: absolute;
+    margin-top: -780px;
+    color: white;
+    margin-left: 75px;
+  }
+  .title2 {
+    position: absolute;
+    margin-top: -780px;
+    color: white;
+    margin-left: 590px;
+  }
+  .title3 {
+    position: absolute;
+    margin-top: -780px;
+    color: white;
+    margin-left: 977px;
+  }
+  /* slider section end  */
+  /* style trip sectioin start  */
+.trip-section{
+  width: 100%;
+  margin-top: 30px;
+}
+.trip-title{
+  text-align: center;
+}
+.trip{
+  display: flex;
+  margin: 30px;
+}
+.trip-right-section {
+  width: 48%;
+  height: 500px;
+}
+.trip-left-section{
+  width: 45%;
+  height: 500px;
+  margin-top: 50px;
+}
+.trip-text{
+  line-height: 1.4rem;
+  margin-top: 20px;
+}
+.header{
+  font-weight: 400;
+  font-size: 38px;
+  margin-left:0px;
+}
+/* this style trip section end  */
+/* this is popular section start  */
+.populer-title{
+  text-align: center;
+}
+.populer{
+  display: flex;
+  margin: 10px;
+}
+.popular-img img {
+  width: 400px;
+  height: 420px;
+}
+.popular-footer h2{
+  font-weight: 400;
+  font-size: 32px;
+}
+.popular-footer p{
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+.popular-footer h4{
+  font-weight: 400;
+  font-size: 22px;
+}
+/* populer section :end  */
+/* testimoniem section start  */
+.testimoniem-section{
+  text-align: center;
+  margin-top: 40px;
+}
+.testimoniem{
+  width: 100%;
+  height: 400px;
+  background-color: var(--black);
+  margin-top: 40px;
+  gap: 30px;
+}
+.testmoniem-logo {
+  display: flex;
+  margin-left: 463px;
+  align-items: center;
+  gap: 32px;
+  line-height: 1.6em;
+}
+.test-name{
+  color: var(--white);
+  text-align: center;
+}
+.text-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.testimoniem-text {
+  color: var(--white);
+  text-align: center;
+  margin-left: 205px;
+  margin-top: 20px;
+  line-height: 1.4em;
+  width: 70%;
+}
+/* this style is testimoniem end  */
+/* registion section start  */
+.registion-section{
+  width: 100%;
+  height: 700px;
+  background-color: var(--gray-light);
+}
+.regintion{
+  display: flex;
+  margin: 30px;
+}
+.registion-right {
+  width: 48%;
+  margin: 100px auto;
+  margin-left: 79px;
+}
+.form-left {
+  width: 48%;
+  margin: 50px auto;
+  margin-left: auto;
+  font-size: 22px;
+  margin-left: 134px;
+}
+input {
+  width: 336px;
+  height: 34px;
+}
+#submit-bitton{
+  width: 336px;
+}
+#submit{
+  background-color: var(--secondary);
+  color: var(--white);
+}
+/* registion form section end  */
+/* foother section :start */
+.newsletter-section{
+  width: 100%;
+  height: 435px;
+  background-color: var(--black);
+}
+.newslatter{
+  display: flex;
+  color: var(--white);
+  margin: 20px;
+}
+.footer1{
+  width: 30%;
+  line-height: 2.4rem;
+  margin-top: 40px;
+}
+.footer2{
+  width: 19%;
+  line-height: 2.4rem;
+  margin-top: 40px;
+}
+.footer3{
+  width: 19%;
+  line-height: 2.4rem;
+  margin-top: 40px;
+}
+.footer4{
+  width: 30%;
+  margin-top: 40px;
+}
+.footer-text{
+  color: var(--gray);
+  line-height: 2.4rem;
+}
+/* footer fill  */
+footer{
+  color: var(--white);
+  text-align: center;
+  margin-top: 30px;
+}
+/* footer section end  */
